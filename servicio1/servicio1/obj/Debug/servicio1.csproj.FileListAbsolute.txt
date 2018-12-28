@@ -1,0 +1,11 @@
+C:\Users\casa\Documents\Visual Studio 2017\Projects\servicio1\servicio1\bin\servicio1.dll.config
+C:\Users\casa\Documents\Visual Studio 2017\Projects\servicio1\servicio1\bin\servicio1.dll
+C:\Users\casa\Documents\Visual Studio 2017\Projects\servicio1\servicio1\bin\servicio1.pdb
+C:\Users\casa\Documents\Visual Studio 2017\Projects\servicio1\servicio1\obj\Debug\servicio1.csprojAssemblyReference.cache
+C:\Users\casa\Documents\Visual Studio 2017\Projects\servicio1\servicio1\obj\Debug\servicio1.csproj.CoreCompileInputs.cache
+C:\Users\casa\Documents\Visual Studio 2017\Projects\servicio1\servicio1\obj\Debug\servicio1.dll
+C:\Users\casa\Documents\Visual Studio 2017\Projects\servicio1\servicio1\obj\Debug\servicio1.pdb
+C:\Users\casa\Documents\Visual Studio 2017\Projects\servicio1\servicio1\bin\MySql.Data.dll
+C:\Users\casa\Documents\Visual Studio 2017\Projects\servicio1\servicio1\bin\Google.Protobuf.dll
+C:\Users\casa\Documents\Visual Studio 2017\Projects\servicio1\servicio1\bin\MySql.Data.xml
+C:\Users\casa\Documents\Visual Studio 2017\Projects\servicio1\servicio1\obj\Debug\servicio1.csproj.CopyComplete
