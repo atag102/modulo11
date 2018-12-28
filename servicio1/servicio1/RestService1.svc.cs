@@ -14,6 +14,7 @@ namespace servicio1
 
         public Persona JSONData(String id)
         {
+            conexion C2 = new conexion();
             return new Persona
             {
                 nombre = "Antonio",
@@ -30,5 +31,18 @@ namespace servicio1
                 mensaE = C1.mensaE
             };
         }
+
+        public List<Persona> listarP(String id)
+        {
+            conexion C2 = new conexion();
+            List<Persona> LP2 = C2.comandosMySql(id);
+            return LP2;
+        }
+
+        public void POST(string zipCode, string price)
+        {
+            Console.WriteLine(price);
+        }
+
     }
 }

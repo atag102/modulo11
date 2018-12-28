@@ -28,5 +28,23 @@ namespace servicio1
             UriTemplate = "conexion/")]
         conexion ConexionData();
 
+       [OperationContract]
+        [WebInvoke(Method = "GET",
+            //RequestFormat = WebMessageFormat.Json,
+            ResponseFormat = WebMessageFormat.Json,
+            BodyStyle = WebMessageBodyStyle.Wrapped,
+            UriTemplate = "listaPersonas/{id}")]
+        List<Persona> listarP(String id);
+
+        [OperationContract]
+        [WebInvoke(Method = "POST",
+            RequestFormat = WebMessageFormat.Json,
+            //ResponseFormat = WebMessageFormat.Json,
+            BodyStyle = WebMessageBodyStyle.Wrapped,
+            UriTemplate = "JSONPOST/")]
+        void POST(string zipCode, string price);
+
+
+
     }
 }

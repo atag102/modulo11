@@ -75,6 +75,7 @@
     <Compile Include="RestService1.svc.cs">
       <DependentUpon>RestService1.svc</DependentUpon>
     </Compile>
+    <Compile Include="ValicacionModel.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

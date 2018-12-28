@@ -10,6 +10,8 @@ namespace servicio1
 {
     public class conexion
     {
+        int i = 0;
+        List<Persona> LP = new List<Persona>();
         public String mensaE
         {
             get; set;
@@ -28,6 +30,27 @@ namespace servicio1
             {
                 this.mensaE = "No se conecto";
             }
+        }
+
+        public List<Persona> comandosMySql(String ID)
+        {
+            MySqlCommand MC = new MySqlCommand(String.Format("SELECT * FROM usuarios.personas where idPersonas='{0}'",ID));
+            MC.Connection = cn;
+            MySqlDataReader MR = MC.ExecuteReader();
+            if (MR.HasRows)
+            {
+                while (MR.Read())
+                {
+                    LP.Insert(i, 
+                        new Persona{
+                        nombre = MR.GetString(1),
+                        edad = MR.GetInt32(2),
+                        CI = MR.GetString(3)}
+                        );
+                    i++;
+                }
+            }
+            return LP;
         }
     }
 }
